@@ -1,0 +1,560 @@
+@font-face {
+    src: url(../myriad-pro-cufonfonts/MyriadPro-Light.otf);
+    font-family: 'MyriadPro-Light';
+}
+
+@font-face {
+    src: url(../myriad-pro-cufonfonts/MYRIADPRO-REGULAR.OTF);
+    font-family: 'MyriadPro-reguler';
+}
+
+@font-face {
+    src: url(../myriad-pro-cufonfonts/MYRIADPRO-SEMIBOLD.OTF);
+    font-family: 'MyriadPro-semibold';
+}
+
+@font-face {
+    src: url(../myriad-pro-cufonfonts/MYRIADPRO-BOLD.OTF);
+    font-family: 'MyriadPro-bold';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.clr {
+    clear: both;
+}
+
+/* =====================================================
+                    Common css end
+======================================================*/
+/* =====================================================
+                    Header part start
+======================================================*/
+#header {
+    height: 32px;
+    background: #61bbe8;
+}
+
+
+.header_text {
+    width: 50%;
+    float: left;
+}
+
+.header_icon {
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+
+.header_text p {
+    color: #0b0b0b;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 32px;
+}
+
+.header_icon a {
+    color: #0b0b0b;
+    font-size: 14px;
+    line-height: 32px;
+    margin-left: 24px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.header_icon a:hover {
+    color: #834141;
+}
+
+/* =====================================================
+                    Header part end
+======================================================*/
+/* =====================================================
+                    Banner part start
+======================================================*/
+#banner  {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/111-removebg.png );
+    background-size: cover;
+    background-position: center;
+}
+
+
+.banner_text {
+    width: 450px;
+    float: center;
+    text-align: center;
+}
+
+
+.banner_text h2{
+    color: #0f0f0f;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    padding-top: 200px;
+}
+
+.banner_text h1{
+    color: #161515;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;   
+}
+
+/* =====================================================
+                    Banner part end
+======================================================*/
+/* =====================================================
+                    About part start
+======================================================*/
+#about {
+    text-align: center;
+    padding: 60px 0;
+}
+
+.common_head h2 {
+    color: #353535;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+.common_head {
+    position: relative;
+    display: inline-block;
+}
+
+.common_head img {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.about_img {
+    width: 390px;
+    float: left;
+}
+
+.about_text {
+    width: 570px;
+    float: left;
+}
+
+.about_img img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.about_text h3 {
+    color: #555;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    text-align: left;
+    line-height: 30px;
+    padding-left: 20px;
+    padding-top: 34px;
+}
+
+.about_row {
+    padding-top: 40px;
+}
+
+.about_text h3 span {
+    display: block;
+    padding-top: 23px;
+}
+
+/* =====================================================
+                    About part end
+======================================================*/
+/* =====================================================
+                    Service part start
+======================================================*/
+#edu {
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.edu_col {
+    width: 31.94%;
+    float: left;
+    margin-right: 20px;
+    padding: 50px 20px 20px;
+    background: #f1f1f1;
+    position: relative;
+}
+
+.edu_col h4 {
+    color: #353535;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+.edu_col p {
+    color: #555;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 24px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.edu_icon {
+    width: 69px;
+    height: 69px;
+    background: #f1f1f1;
+    border-radius: 50%;
+    line-height: 69px;
+    border: 2px solid #fff;
+    position: absolute;
+    left: 50%;
+    top: -35px;
+    transform: translateX(-50%);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+.edu_icon::after {
+    position: absolute;
+    content: '';
+    left: -3px;
+    top: -3px;
+    width: 69px;
+    height: 69px;
+    border: 1px solid #f1f1f1;
+    border-radius: 50%;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.edu_icon::before {
+    position: absolute;
+    content: '';
+    left: -7px;
+    top: -7px;
+    width: 71px;
+    height: 71px;
+    border: 4px solid #fff;
+    border-radius: 50%;
+}
+
+.edu_col:nth-child(3) {
+    margin-right: 0;
+}
+
+.edu_row {
+    padding-top: 68px;
+}
+
+.edu_col:hover .edu_icon {
+    background: #5bc5f4;
+}
+
+.edu_col:hover .edu_icon:after {
+    border-color: #5bc5f4;
+}
+
+.edu_col:hover {
+    box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.2)
+}
+
+/* =====================================================
+                    Service part end
+======================================================*/
+/* =====================================================
+                    achievement part start
+======================================================*/
+#achievement {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.port_col {
+    width: 23.43%;
+    float: left;
+    margin-right: 20px;
+}
+
+.port_col:nth-child(4) {
+    margin-right: 0;
+}
+
+.port_img img {
+    width: 100%;
+    max-width: 100%;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.port_mar {
+    margin-bottom: 20px;
+}
+
+.port_row {
+    padding-top: 30px;
+}
+
+.port_img {
+    position: relative;
+    overflow: hidden;
+}
+
+.port_img .overly {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    transform: scale(0);
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.port_img .overly p {
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.port_img:hover .overly {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform-origin: bottom;
+}
+
+.port_img:hover img {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+
+/* =====================================================
+                    achievement part end
+======================================================*/
+
+/* =====================================================
+                    experiance part start
+======================================================*/
+#experiance{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.test_col{
+    width: 48%;
+    float: left;
+    margin-right: 20px;
+}
+
+.test_col:nth-child(2){
+    margin-right: 0;
+}
+
+.test_text{
+    padding: 20px;
+    background: #f1f1f1;
+    margin-top: 36px;
+    position: relative;
+}
+
+.test_text:after{
+    position: absolute;
+    content: '';
+    left: 50%;
+    top: -40px;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid #f1f1f1;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: translateX(-50%);
+}
+
+.test_text h3{
+    color: #353535;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Oswald',
+    sans-serif;
+    text-transform: uppercase;
+}
+
+.test_text i{
+    color: #5bc5f4;
+    font-size: 13px;
+
+}
+
+.test_text h5 {
+    color: #555;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+}
+
+.test_text p {
+    color: #555;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    line-height: 24px;
+}
+
+.test_row{
+    padding-top: 30px;
+}
+
+/* =====================================================
+                    experiance part end
+======================================================*/
+/* =====================================================
+                    hobby part start
+======================================================*/
+#hobby {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.port_col {
+    width: 23.43%;
+    float: left;
+    margin-right: 20px;
+}
+
+.port_col:nth-child(4) {
+    margin-right: 0;
+}
+
+.port_img img {
+    width: 100%;
+    max-width: 100%;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.port_mar {
+    margin-bottom: 20px;
+}
+
+.port_row {
+    padding-top: 30px;
+}
+
+.port_img {
+    position: relative;
+    overflow: hidden;
+}
+
+/* =====================================================
+                    hobby part end
+======================================================*/
+
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px;  /*Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  .header_icon {
+    width: 50%;
+    float: middle;
+    text-align: right;
+}
+  
